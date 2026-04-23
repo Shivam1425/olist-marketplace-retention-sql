@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1220" height="652" viewBox="0 0 1220 652">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L10,3 L0,6 Z" fill="#64748b" />
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#f8fafc"/>
+  <text x="610.0" y="24" text-anchor="middle" font-family="Segoe UI, Arial" font-size="20" font-weight="700" fill="#0f172a">Ecommerce Customer Behavior Cohort Analysis</text>
+  <path d="M 270 117.0 C 300.0 117.0, 300.0 117.0, 330 117.0" stroke="#64748b" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+<rect x="252.0" y="105.0" width="96" height="20" rx="8" fill="#eff6ff" stroke="#bfdbfe"/><text x="300.0" y="119.0" text-anchor="middle" font-family="Segoe UI, Arial" font-size="11" fill="#1d4ed8">1-to-many</text><path d="M 590 117.0 C 620.0 117.0, 620.0 129.0, 650 129.0" stroke="#64748b" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+<rect x="572.0" y="111.0" width="96" height="20" rx="8" fill="#eff6ff" stroke="#bfdbfe"/><text x="620.0" y="125.0" text-anchor="middle" font-family="Segoe UI, Arial" font-size="11" fill="#1d4ed8">1-to-many</text><path d="M 460.0 204 C 460.0 204, 460.0 280, 460.0 280" stroke="#64748b" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+<rect x="412.0" y="230.0" width="96" height="20" rx="8" fill="#eff6ff" stroke="#bfdbfe"/><text x="460.0" y="244.0" text-anchor="middle" font-family="Segoe UI, Arial" font-size="11" fill="#1d4ed8">1-to-many</text><path d="M 590 117.0 C 620.0 117.0, 620.0 355.0, 650 355.0" stroke="#64748b" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+<rect x="572.0" y="224.0" width="96" height="20" rx="8" fill="#eff6ff" stroke="#bfdbfe"/><text x="620.0" y="238.0" text-anchor="middle" font-family="Segoe UI, Arial" font-size="11" fill="#1d4ed8">1-to-1</text><path d="M 270 343.0 C 460.0 343.0, 460.0 129.0, 650 129.0" stroke="#64748b" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+<rect x="412.0" y="224.0" width="96" height="20" rx="8" fill="#eff6ff" stroke="#bfdbfe"/><text x="460.0" y="238.0" text-anchor="middle" font-family="Segoe UI, Arial" font-size="11" fill="#1d4ed8">1-to-many</text><path d="M 940 105.0 C 920.0 105.0, 920.0 129.0, 900 129.0" stroke="#64748b" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+<rect x="872.0" y="105.0" width="96" height="20" rx="8" fill="#eff6ff" stroke="#bfdbfe"/><text x="920.0" y="119.0" text-anchor="middle" font-family="Segoe UI, Arial" font-size="11" fill="#1d4ed8">1-to-many</text><path d="M 150.0 490 C 150.0 490, 150.0 406, 150.0 406" stroke="#64748b" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+<rect x="102.0" y="436.0" width="96" height="20" rx="8" fill="#eff6ff" stroke="#bfdbfe"/><text x="150.0" y="450.0" text-anchor="middle" font-family="Segoe UI, Arial" font-size="11" fill="#1d4ed8">1-to-many</text>
+  <rect x="30" y="30" width="240" height="174" rx="12" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+<rect x="30" y="30" width="240" height="34" rx="12" fill="#1f4e79" stroke="#1f2937" stroke-width="2"/>
+<text x="150.0" y="52" text-anchor="middle" font-family="Segoe UI, Arial" font-size="16" font-weight="700" fill="#ffffff">customers</text>
+<text x="44" y="84" font-family="Segoe UI, Arial" font-size="13" fill="#111827">PK customer_id</text>
+<text x="44" y="108" font-family="Segoe UI, Arial" font-size="13" fill="#111827">customer_unique_id</text>
+<text x="44" y="132" font-family="Segoe UI, Arial" font-size="13" fill="#111827">customer_zip_code_prefix</text>
+<text x="44" y="156" font-family="Segoe UI, Arial" font-size="13" fill="#111827">customer_city</text>
+<text x="44" y="180" font-family="Segoe UI, Arial" font-size="13" fill="#111827">customer_state</text><rect x="330" y="30" width="260" height="174" rx="12" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+<rect x="330" y="30" width="260" height="34" rx="12" fill="#1f4e79" stroke="#1f2937" stroke-width="2"/>
+<text x="460.0" y="52" text-anchor="middle" font-family="Segoe UI, Arial" font-size="16" font-weight="700" fill="#ffffff">orders</text>
+<text x="344" y="84" font-family="Segoe UI, Arial" font-size="13" fill="#111827">PK order_id</text>
+<text x="344" y="108" font-family="Segoe UI, Arial" font-size="13" fill="#111827">FK customer_id</text>
+<text x="344" y="132" font-family="Segoe UI, Arial" font-size="13" fill="#111827">order_status</text>
+<text x="344" y="156" font-family="Segoe UI, Arial" font-size="13" fill="#111827">order_purchase_timestamp</text>
+<text x="344" y="180" font-family="Segoe UI, Arial" font-size="13" fill="#111827">order_estimated_delivery_date</text><rect x="650" y="30" width="250" height="198" rx="12" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+<rect x="650" y="30" width="250" height="34" rx="12" fill="#1f4e79" stroke="#1f2937" stroke-width="2"/>
+<text x="775.0" y="52" text-anchor="middle" font-family="Segoe UI, Arial" font-size="16" font-weight="700" fill="#ffffff">order_items</text>
+<text x="664" y="84" font-family="Segoe UI, Arial" font-size="13" fill="#111827">PK/FK order_id</text>
+<text x="664" y="108" font-family="Segoe UI, Arial" font-size="13" fill="#111827">PK order_item_id</text>
+<text x="664" y="132" font-family="Segoe UI, Arial" font-size="13" fill="#111827">FK product_id</text>
+<text x="664" y="156" font-family="Segoe UI, Arial" font-size="13" fill="#111827">FK seller_id</text>
+<text x="664" y="180" font-family="Segoe UI, Arial" font-size="13" fill="#111827">price</text>
+<text x="664" y="204" font-family="Segoe UI, Arial" font-size="13" fill="#111827">freight_value</text><rect x="330" y="280" width="260" height="174" rx="12" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+<rect x="330" y="280" width="260" height="34" rx="12" fill="#1f4e79" stroke="#1f2937" stroke-width="2"/>
+<text x="460.0" y="302" text-anchor="middle" font-family="Segoe UI, Arial" font-size="16" font-weight="700" fill="#ffffff">order_payments</text>
+<text x="344" y="334" font-family="Segoe UI, Arial" font-size="13" fill="#111827">PK/FK order_id</text>
+<text x="344" y="358" font-family="Segoe UI, Arial" font-size="13" fill="#111827">PK payment_sequential</text>
+<text x="344" y="382" font-family="Segoe UI, Arial" font-size="13" fill="#111827">payment_type</text>
+<text x="344" y="406" font-family="Segoe UI, Arial" font-size="13" fill="#111827">payment_installments</text>
+<text x="344" y="430" font-family="Segoe UI, Arial" font-size="13" fill="#111827">payment_value</text><rect x="650" y="280" width="250" height="150" rx="12" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+<rect x="650" y="280" width="250" height="34" rx="12" fill="#1f4e79" stroke="#1f2937" stroke-width="2"/>
+<text x="775.0" y="302" text-anchor="middle" font-family="Segoe UI, Arial" font-size="16" font-weight="700" fill="#ffffff">order_reviews</text>
+<text x="664" y="334" font-family="Segoe UI, Arial" font-size="13" fill="#111827">PK/FK order_id</text>
+<text x="664" y="358" font-family="Segoe UI, Arial" font-size="13" fill="#111827">review_id</text>
+<text x="664" y="382" font-family="Segoe UI, Arial" font-size="13" fill="#111827">review_score</text>
+<text x="664" y="406" font-family="Segoe UI, Arial" font-size="13" fill="#111827">review_creation_date</text><rect x="30" y="280" width="240" height="126" rx="12" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+<rect x="30" y="280" width="240" height="34" rx="12" fill="#1f4e79" stroke="#1f2937" stroke-width="2"/>
+<text x="150.0" y="302" text-anchor="middle" font-family="Segoe UI, Arial" font-size="16" font-weight="700" fill="#ffffff">products</text>
+<text x="44" y="334" font-family="Segoe UI, Arial" font-size="13" fill="#111827">PK product_id</text>
+<text x="44" y="358" font-family="Segoe UI, Arial" font-size="13" fill="#111827">product_category_name</text>
+<text x="44" y="382" font-family="Segoe UI, Arial" font-size="13" fill="#111827">product_weight_g</text><rect x="940" y="30" width="220" height="150" rx="12" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+<rect x="940" y="30" width="220" height="34" rx="12" fill="#1f4e79" stroke="#1f2937" stroke-width="2"/>
+<text x="1050.0" y="52" text-anchor="middle" font-family="Segoe UI, Arial" font-size="16" font-weight="700" fill="#ffffff">sellers</text>
+<text x="954" y="84" font-family="Segoe UI, Arial" font-size="13" fill="#111827">PK seller_id</text>
+<text x="954" y="108" font-family="Segoe UI, Arial" font-size="13" fill="#111827">seller_zip_code_prefix</text>
+<text x="954" y="132" font-family="Segoe UI, Arial" font-size="13" fill="#111827">seller_city</text>
+<text x="954" y="156" font-family="Segoe UI, Arial" font-size="13" fill="#111827">seller_state</text><rect x="30" y="490" width="240" height="102" rx="12" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+<rect x="30" y="490" width="240" height="34" rx="12" fill="#1f4e79" stroke="#1f2937" stroke-width="2"/>
+<text x="150.0" y="512" text-anchor="middle" font-family="Segoe UI, Arial" font-size="16" font-weight="700" fill="#ffffff">category_translation</text>
+<text x="44" y="544" font-family="Segoe UI, Arial" font-size="13" fill="#111827">PK product_category_name</text>
+<text x="44" y="568" font-family="Segoe UI, Arial" font-size="13" fill="#111827">product_category_name_english</text>
+</svg>
